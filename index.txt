@@ -1,0 +1,13 @@
+browser->server: HTTP GET notes
+server->browser: HTML-code
+server->browser: HTTP GET main.css
+server->browser: HTTP GET main.js
+note over browser:
+The user complete the text field and submit
+The page refresh
+end note
+browser->server: HTTP GET notes
+browser->server: HTTP POST new_notes
+server->browser: HTML-code
+server->browser: HTTP GET main.css
+server->browser: HTTP GET main.js
